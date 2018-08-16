@@ -1,3 +1,7 @@
+
+
+
+
 var modal = document.querySelector(".modal");
 var closeButton = document.querySelector(".close-button");
 
