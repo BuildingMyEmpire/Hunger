@@ -3,8 +3,14 @@
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 <script src="func.js"></script>
 <head>
+  <link rel="stylesheet" href="imagegrid.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+  
+</head>
 </head>
 <body>
+<div>
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
   <a class="navbar-brand" href="#">HUGS or SOUP</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -55,9 +61,161 @@
     </form>
   </div>
 </nav>
-<h1>This is our home page.</h1>
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+<script src="imagegrid.js"></script>
+<div>
+  <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+
+  <!-- Header -->
+  <div class="header" id="myHeader">
+    <h1>Hugs or Soup</h1>
+    <p> Slogannnnnnnnnnnnnn </p>
+  </div>
+
+  <!-- Photo Grid -->
+  <div class="row">
+    <div class="column">
+    <div class="container">
+      <img src="http://matchbin-assets.s3.amazonaws.com/public/sites/383/assets/5ONT_BRIEFS_11JCCarePoint24_1.jpg" style="width:100%" alt="Avatar" class="image"></a>
+      <div class="overlay">
+        <div class="text"> The Sharing Place is located at St. Paul Lutheran Church, and prepares bags of groceries and ready-made meals for those in need. Available on the last two Saturdays of every month. <br> <a href="http://stpauljerseycity.org/stpaul/social-ministries/sharing-place/" target= "_blank" class="fa fa-globe"></a>  <a href="https://www.facebook.com/TheSharingPlaceAtStPauls/" target= "_blank" class="fab fa-facebook"> </a> <a href="https://docs.google.com/forms/d/e/1FAIpQLSdH4rhNRrYpeqxz7eXpvGQIP_5sw1E_ZlbgtOKkph5fOv_YSQ/viewform" target= "_blank" class ="fas fa-info"> </a> </div>
+      </div>
+    </div>
+    <div class="container">
+      <img src="http://stpauljerseycity.org/stpaul/wp-content/uploads/2008/09/client_food.jpg" style="width:100%" alt="Avatar" class="image">
+      <div class="overlay">
+        <div class="text"> The Sharing Place is located at St. Paul Lutheran Church, and prepares bags of groceries and ready-made meals for those in need. Available on the last two Saturdays of every month. <br> <a href="http://stpauljerseycity.org/stpaul/social-ministries/sharing-place/" target= "_blank" class="fa fa-globe"></a>  <a href="https://www.facebook.com/TheSharingPlaceAtStPauls/" target= "_blank" class="fab fa-facebook"> </a> <a href="https://docs.google.com/forms/d/e/1FAIpQLSdH4rhNRrYpeqxz7eXpvGQIP_5sw1E_ZlbgtOKkph5fOv_YSQ/viewform" target= "_blank" class ="fas fa-info"> </a></div>
+      </div>
+    </div>
+    <div class="container">
+      <img src="https://villagegreennj.com/wp-content/uploads/2018/04/29750138_1668297809893749_255352297784763094_o.jpg" style="width:100%" alt="Avatar" class="image">
+      <div class="overlay">
+        <div class="text"> The food pantry at Our Lady of Sorrows Church has a mission to help those suffering from emergencies such as: unemployment, debt, robbery, or illness. <br> <a href="https://olsnj.org/food-pantry" target= "_blank" class="fa fa-globe"></a>  <a href="https://www.facebook.com/pages/Our-Lady-of-Sorrows/108192119221981" target= "_blank" class="fab fa-facebook"></a></div>
+      </div>
+    </div>
+    <div class="container">
+      <img src="https://catholicschoolsnj.org/wp-content/uploads/2014/11/MotherSeton2.jpg" style="width:100%" alt="Avatar" class="image">
+      <div class="overlay">
+        <div class="text"> St. Joseph and Michael Food Pantry is located in Mother Seton School. They provide aid to many needy people based on donations. <br> <a href="http://ssjmuc.org/page24.html" target= "_blank" class="fa fa-globe"></a>  <a href="https://www.facebook.com/STS-Joseph-Michael-Union-City-113825285314968/" target= "_blank" class="fab fa-facebook"></a></div>
+      </div>
+    </div>
+    <div class="container">
+      <img src="https://www.njcu.edu/programs/jchistory/Images/B_Images/Bethany_Lutheran/Bethany.JPG" style="width:100%" alt="Avatar" class="image">
+      <div class="overlay">
+        <div class="text"> Bethany Lutheran provides assistance with food, clothing and social services. They also offer: fall flu shots, healthcare workshops, and social service updates. <br> <a href="https://www.bethanyjc.com/" target= "_blank" class="fa fa-globe"></a>  <a href="https://www.facebook.com/Bethany-Lutheran-Church-1075496492474256/" target= "_blank" class="fab fa-facebook"></a><a href="https://www.bethanyjc.com/contact-us" target= "_blank" class ="fas fa-info"> </a></div>
+      </div>
+    </div>
+  </div>
+  <!-- new column -->
+    <div class="column">
+      <div class="container">
+      <img src="http://www.salvationarmynj.org/images/kearny.jpg" style="width:100%" alt="Avatar" class="image">
+      <div class="overlay">
+      <div class="text"> The Salvation Army has been making a difference in the community for over a century, providing food, shelter, and other methods of assistance to people in need. <br> <a href="https://newjersey.salvationarmy.org/" target= "_blank" class="fa fa-globe"></a>  <a href="https://www.facebook.com/SalvationArmyNJ/" target= "_blank" class="fab fa-facebook"></a><a href="https://www.volgistics.com/ex/portal.dll/ap?AP=2032567888" target= "_blank" class ="fas fa-info"> </a></div>
+      </div>
+    </div>
+      <div class="container">
+        <img src="http://salvationarmyalm.org/shreveport/files/2014/04/volunteer_logo2c.jpg" style="width:100%" alt="Avatar" class="image">
+        <div class="overlay">
+        <div class="text"> The Salvation Army has been making a difference in the community for over a century, providing food, shelter, and other methods of assistance to people in need. <br> <a href="https://newjersey.salvationarmy.org/" target= "_blank" class="fa fa-globe"></a>  <a href="https://www.facebook.com/SalvationArmyNJ/" target= "_blank" class="fab fa-facebook"></a><a href="https://www.volgistics.com/ex/portal.dll/ap?AP=2032567888" target= "_blank" class ="fas fa-info"> </a></div>
+        </div>
+      </div>
+      <div class="container">
+        <img src="https://s3.amazonaws.com/use-cache.salvationarmy.org/0efa040a-47a8-4cd6-8912-345f1f41657d_unioncity.jpg" style="width:100%" alt="Avatar" class="image">
+        <div class="overlay">
+        <div class="text"> The Salvation Army has been making a difference in the community for over a century, providing food, shelter, and other methods of assistance to people in need. <br> <a href="https://newjersey.salvationarmy.org/" target= "_blank" class="fa fa-globe"></a>  <a href="https://www.facebook.com/SalvationArmyNJ/" target= "_blank" class="fab fa-facebook"></a><a href="https://www.volgistics.com/ex/portal.dll/ap?AP=2032567888" target= "_blank" class ="fas fa-info"> </a></div>
+        </div>
+      </div>
+      <div class="container">
+        <img src="http://media.nj.com/hudsoncountynow_impact/photo/10655544-large.jpg" style="width:100%" alt="Avatar" class="image">
+        <div class="overlay">
+        <div class="text"> The Hudson Community Action Corporation offers free food, meals, and groceries to those with low income. They also help people apply for government assistance, and public aid. <br> <a href="https://nhcac.org/social-services-2-2/#squelch-taas-accordion-shortcode-content-8" target= "_blank" class="fa fa-globe"></a>  <a href="https://www.facebook.com/nhcac/" target= "_blank" class="fab fa-facebook"></a><a href="https://nhcac.org/contact/" target= "_blank" class ="fas fa-info"> </a></div>
+        </div>
+      </div>
+      <div class="container">
+        <img src="https://reviewlization.files.wordpress.com/2013/11/center.jpg" style="width:100%" alt="Avatar" class="image">
+        <div class="overlay">
+        <div class="text"> The Hudson Community Action Corporation offers free food, meals, and groceries to those with low income. They also help people apply for government assistance, and public aid. <br> <a href="https://nhcac.org/social-services-2-2/#squelch-taas-accordion-shortcode-content-8" target= "_blank" class="fa fa-globe"></a>  <a href="https://www.facebook.com/nhcac/" target= "_blank" class="fab fa-facebook"></a><a href="https://nhcac.org/contact/" target= "_blank" class ="fas fa-info"> </a> </div>
+        </div>
+      </div>
+    </div>
+
+  <!-- third column -->
+  <div class="column">
+      <div class="container">
+        <img src="https://www.wsws.org/en/media/photos/legacy/2010may/m24-newj-stlu-480.jpg" style="width:100%" alt="Avatar" class="image">
+        <div class="overlay">
+        <div class="text"> St. Lucy’s is a 24 hour shelter open seven days a week for single men and women. This shelter is located in Jersey City provides those in need with food. <br> <a href="http://www.ccannj.com/st_Lucy.php" target= "_blank" class="fa fa-globe"></a>  <a href="https://www.facebook.com/CatholicCharitiesofNewark/" target= "_blank" class="fab fa-facebook"></a><a href="https://www.jerseycares.org/opportunity/a0C1N00000GEt98UAD" target= "_blank" class ="fas fa-info"> </a></div>
+        </div>
+      </div>
+      <div class="container">
+        <img src="https://www.homelessshelterdirectory.org/gallery/3395__xvo.jpg" style="width:100%" alt="Avatar" class="image">
+        <div class="overlay">
+        <div class="text"> St. Lucy’s is a 24 hour shelter open seven days a week for single men and women. This shelter is located in Jersey City provides those in need with food. <br> <a href="http://www.ccannj.com/st_Lucy.php" target= "_blank" class="fa fa-globe"></a>  <a href="https://www.facebook.com/CatholicCharitiesofNewark/" target= "_blank" class="fab fa-facebook"></a><a href="https://www.jerseycares.org/opportunity/a0C1N00000GEt98UAD" target= "_blank" class ="fas fa-info"> </a></div>
+        </div>
+      </div>
+      <div class="container">
+        <img src="https://www.homelessshelterdirectory.org/gallery/3395__xkh.png" style="width:100%" alt="Avatar" class="image">
+        <div class="overlay">
+        <div class="text"> St. Lucy’s is a 24 hour shelter open seven days a week for single men and women. This shelter is located in Jersey City provides those in need with food. <br> <a href="http://www.ccannj.com/st_Lucy.php" target= "_blank" class="fa fa-globe"></a>  <a href="https://www.facebook.com/CatholicCharitiesofNewark/" target= "_blank" class="fab fa-facebook"></a><a href="https://www.jerseycares.org/opportunity/a0C1N00000GEt98UAD" target= "_blank" class ="fas fa-info"> </a></div>
+        </div>
+      </div>
+      <div class="container">
+        <img src="https://cdn.patchcdn.com/users/22821264/stock/T800x600/20141154767c1603fe1.jpg" style="width:100%" alt="Avatar" class="image">
+        <div class="overlay">
+        <div class="text"> The Hoboken Shelter’s goal is to provide meals for the hungry and shelter for the homeless, while promoting a long term impact. They shelter 50 people every night, serve 500 meals everyday, and host 1,000 showers every week. <br> <a href="http://hobokenshelter.org/" target= "_blank" class="fa fa-globe"></a>  <a href="https://www.facebook.com/HobokenShelter/" target= "_blank" class="fab fa-facebook"></a><a href="http://hobokenshelter.org/volunteers/" target= "_blank" class ="fas fa-info"> </a></div>
+        </div>
+      </div>
+      <div class="container">
+        <img src="http://hmag.com/wp-content/uploads/2015/06/Hoboken-Shelter-e1433853500170-620x350.jpg" style="width:100%" alt="Avatar" class="image">
+        <div class="overlay">
+        <div class="text"> The Hoboken Shelter’s goal is to provide meals for the hungry and shelter for the homeless, while promoting a long term impact. They shelter 50 people every night, serve 500 meals everyday, and host 1,000 showers every week. <br> <a href="http://hobokenshelter.org/" target= "_blank" class="fa fa-globe"></a>  <a href="https://www.facebook.com/HobokenShelter/" target= "_blank" class="fab fa-facebook"></a><a href="http://hobokenshelter.org/volunteers/" target= "_blank" class ="fas fa-info"> </a></div>
+        </div>
+      </div>
+      <div class="container">
+        <img src="http://hobokenshelter.org/wp-content/uploads/2018/03/cropped-28701309_10213264772867492_1640173958132773826_o.jpg" style="width:100%" alt="Avatar" class="image">
+        <div class="overlay">
+        <div class="text"> The Hoboken Shelter’s goal is to provide meals for the hungry and shelter for the homeless, while promoting a long term impact. They shelter 50 people every night, serve 500 meals everyday, and host 1,000 showers every week. <br> <a href="http://hobokenshelter.org/" target= "_blank" class="fa fa-globe"></a>  <a href="https://www.facebook.com/HobokenShelter/" target= "_blank" class="fab fa-facebook"></a><a href="http://hobokenshelter.org/volunteers/" target= "_blank" class ="fas fa-info"> </a></div>
+        </div>
+      </div>
+    </div>
+  <!-- fourth column -->
+  <div class="column">
+      <div class="container">
+        <img src="http://www.njsoupkitchen.org/images/slides/IMG_7482.jpg" style="width:100%" alt="Avatar" class="image">
+        <div class="overlay">
+        <div class="text"> St. John's Lutheran Church Food Pantry is located in Jersey City and their goal is to eliminate hunger. <br> <a href="http://www.stjohnsjerseycity.net/st.-john-s-food-pantry.html" target= "_blank" class="fa fa-globe"></a>  <a href="https://www.facebook.com/St-Johns-Lutheran-Church-109753219108368/" target= "_blank" class="fab fa-facebook"></a><a href="https://www.eservicepayments.com/cgi-bin/Vanco_ver3.vps?appver3=Fi1giPL8kwX_Oe1AO50jRi7GTfttuHPRXr738jUVkKPHO3iVYxvvxhHjRfLOeq662EvVVAEjqawDomKT1pboudKZfqAl8ayfaMF_V-tAS9g=" target= "_blank" class="fas fa-donate"></a></div>
+        </div>
+      </div>
+      <div class="container">
+        <img src="http://www.njsoupkitchen.org/images/slides/IMG_7477.jpg" style="width:100%" alt="Avatar" class="image">
+        <div class="overlay">
+        <div class="text"> St. John's Lutheran Church Food Pantry is located in Jersey City and their goal is to eliminate hunger. <br> <a href="http://www.stjohnsjerseycity.net/st.-john-s-food-pantry.html" target= "_blank" class="fa fa-globe"></a>  <a href="https://www.facebook.com/St-Johns-Lutheran-Church-109753219108368/" target= "_blank" class="fab fa-facebook"></a><a href="https://www.eservicepayments.com/cgi-bin/Vanco_ver3.vps?appver3=Fi1giPL8kwX_Oe1AO50jRi7GTfttuHPRXr738jUVkKPHO3iVYxvvxhHjRfLOeq662EvVVAEjqawDomKT1pboudKZfqAl8ayfaMF_V-tAS9g=" target= "_blank" class="fas fa-donate"></a></div>
+        </div>
+      </div>
+      <div class="container">
+        <img src="http://haveanight.com/assets/images/uploads/2016/November/20161114232918_holidaymarketcp.jpg" style="width:100%" alt="Avatar" class="image">
+        <div class="overlay">
+        <div class="text"> Marketplace in Jersey City is geared towards improving hunger within the community by providing an emergency food pantry to those in need. <br> <a href="http://marketplacejc.com/" target= "_blank" class="fa fa-globe"></a>  <a href="https://www.facebook.com/marketplaceJC/" target= "_blank" class="fab fa-facebook"></a><a href="http://marketplacejc.com/events/" target= "_blank" class ="fas fa-info"> </a></div>
+        </div>
+      </div>
+      <div class="container">
+        <img src="http://www.percshelter.org/resources/PERC_Shelter%20Bed%20edit.JPG.opt405x303o0%2C0s405x303.JPG" style="width:100%" alt="Avatar" class="image">
+        <div class="overlay">
+        <div class="text"> Palisades Emergency Residence Corporation aspires to end poverty, because they believe that food and shelter are basics human rights. PERC provides housing, support, a soup kitchen and food pantry. <br> <a href="http://www.percshelter.org/" target= "_blank" class="fa fa-globe"></a>  <a href="https://www.facebook.com/PERCshelter/" target= "_blank" class="fab fa-facebook"></a><a href="http://www.percshelter.org/volunteer.php" target= "_blank" class ="fas fa-info"> </a></div>
+        </div>
+      </div>
+      <div class="container">
+        <img src="http://www.percshelter.org/resources/Supplies_needed_fixed.png.opt426x568o0%2C0s426x568.png" style="width:100%" alt="Avatar" class="image">
+        <div class="overlay">
+        <div class="text"> Palisades Emergency Residence Corporation aspires to end poverty, because they believe that food and shelter are basics human rights. PERC provides housing, support, a soup kitchen and food pantry. <br> <a href="http://www.percshelter.org/" target= "_blank" class="fa fa-globe"></a>  <a href="https://www.facebook.com/PERCshelter/" target= "_blank" class="fab fa-facebook"></a><a href="http://www.percshelter.org/volunteer.php" target= "_blank" class ="fas fa-info"> </a></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
 </body>
 </html>
