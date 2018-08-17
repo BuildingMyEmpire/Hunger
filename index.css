@@ -78,7 +78,7 @@ body {
 a {
     background-color: none;
     color: blue;
-    padding: 14px 15px;
+    /*padding: 14px 15px; */
     text-align: center;
     text-decoration: none;
     display: inline-block;
@@ -163,21 +163,25 @@ a {
 }
 
 .sizeBtn {
-  width: 30px;
-  height: 30px;
+  width: 40px;
+  height: 40px;
   text-align: center;
-  display: relative;
-	border-radius:15px;
+	border-radius:45px;
+  float: right;
+
 }
 
 #smallText {
-    font-size:small;
+    font-size:x-small;
+    font-weight:bold;
 }
 
 #mediumText {
     font-size:medium;
+    font-weight:bold;
 }
 
 #largeText {
-    font-size:large;
+    font-size:x-large;
+    font-weight:bold;
 }
