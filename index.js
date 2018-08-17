@@ -1,17 +1,31 @@
-var elements = document.getElementsByClassName("column");
+//var elements = document.getElementsByClassName("column");
 
-var modal = document.querySelector(".modal");
-var closeButton = document.querySelector(".close-button");
+//var modal = document.querySelector(".modal");
+//var closeButton = document.querySelector(".close-button");
 
 
-function toggleModal() {
-    modal.classList.toggle("show-modal");
+//function toggleModal() {
+  //  modal.classList.toggle("show-modal");
+//}
+
+//function windowOnClick(event) {
+      //  toggleModal();
+
+//}
+
+//closeButton.addEventListener("click", toggleModal);
+//window.addEventListener("load", windowOnClick);
+
+
+function smallFunction() {
+  console.log("hi");
+    document.getElementById("orgText").style.fontSize = "small";
 }
 
-function windowOnClick(event) {
-        toggleModal();
-
+function mediumFunction() {
+    document.getElementById("orgText").style.fontSize = "medium";
 }
 
-closeButton.addEventListener("click", toggleModal);
-window.addEventListener("load", windowOnClick);
+function largeFunction() {
+    document.getElementById("orgText").style.fontSize = "large";
+}
