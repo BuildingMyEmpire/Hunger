@@ -1,26 +1,27 @@
 var funFacts = [
-     ["Atlantic:<p>Population: 274,026</p><p>Food insecurity rate:12.9%</p>", 213,599],
-     ["Bergen:<p>Population: 905,116</p><p>Food insecurity rate: 7.5%</p>", 40.707213, 360-74.076559],
-     ["Burlington:<p>Population: 448,734</p><p>Food insecurity rate: 9.9%,</p>", 40.77, 360-74.03],
-     ["Camden:<p>Population: 513,657</p><p>Food insecurity rate: 12.2%,</p>", 40.761384, 360-74.035241],
-     ["Cape May:<p>Population: 92,265</p><p>Food insecurity rate: 12.4%,</p>", 40.772944, 360-74.143995],
-     ["Cumberland:<p>Population: 156,898</p><p>Food insecurity rate: 12.9%,</p>", 40.746583, 360-74.1568],
-     ["Essex:<p>Population: 783,969<p><p>Food insecurity rate: 17.1%,</p>", 40.797239, 360-74.012143],
-     ["Gloucester:<p>Population: 288,288</p><p>Food insecurity rate: 9.9%,</p>",40.739791, 360-74.04677],
-     ["Hudson:<p>Population: 634,266</p><p>Food insecurity rate: 10.5%,</p>", 40.739791, 360-74.04677],
-     ["Hunterdon:<p>Population: 128,349</p><p>Food insecurity rate: 6.3%,</p>", 40.766916, 360-74.146635],
-     ["Mercer:<p>Population: 366,513</p><p>Food insecurity rate: 11.0%,</p>", 40.708328, 360-74.087328],
-     ["Middlesex:<p>Population: 809,858</p><p>Food insecurity rate: 8.4%,</p>", 40.732661, 360-74.04137],
-     ["Monmouth:<p>Population: 630,380</p><p>Food insecurity rate: 8.5%,</p>", 40.74032, 360-74.031139],
-     ["Morris:<p>Population: 492,276</p><p>Food insecurity rate: 6.1%,</p>", 40.753079, 360-74.048066],
-     ["Ocean:<p>Population: 576,567</p><p>Food insecurity rate: 9.4%,</p>", 40.753079, 360-74.048066],
-     ["Passaic:<p>Population: 501,226</p><p>Food insecurity rate: 9.6%,</p>", 40.753079, 360-74.048066],
-     ["Salem:<p>Population: 66,083</p><p>Food insecurity rate: 13.0%,</p>", 40.753079, 360-74.048066],
-     ["Somerset:<p>Population: 323,444</p><p>Food insecurity rate: 6.9%,</p>", 40.753079, 360-74.048066],
-     ["Sussex:<p>Population: 149,265</p><p>Food insecurity rate: 7.2%,</p>", 40.753079, 360-74.048066],
-     ["Union:<p>Population: 536,499</p><p>Food insecurity rate: 9.6%,</p>", 40.753079, 360-74.048066],
-     ["Warren:<p>Population: 180,692</p><p>Food insecurity rate: 9.0%,</p>", 40.753079, 360-74.048066]
-   ]
+  ["<p>Sussex:</p><p>Food Insecurity Rate: 7.2% (10,400 people)</p><p>Avg. Meal Cost: $3.69</p> ","Sussex"],
+  ["<p>Passaic:</p><p>Food Insecurity Rate: 9.6% (48,880 people)</p><p>Avg. Meal Cost: $3.25</p>", "Passaic"],
+  ["<p>Bergen:</p><p>Food Insecurity Rate: 7.5% (70,200 people)</p><p>Avg. Meal Cost: $3.77</p>","Bergen"],
+  ["<p>Warren:</p><p>Food Insecurity Rate: 9.0% (9,620 people)</p><p>Avg. Meal Cost: $3.64</p>", "Warren"],
+  ["<p>Morris:</p><p>Food Insecurity Rate: 6.1% (30,360 people)</p><p>Avg. Meal Cost: $3.55</p>","Morris"],
+  ["<p>Essex:</p><p>Food Insecurity Rate: 17.1% (135,210 people)</p><p>Avg. Meal Cost: $3.92</p>","Essex"],
+  ["<p>Hunterdon:</p><p>Food Insecurity Rate: 6.3% (7,880 people)</p><p>Avg. Meal Cost: $3.94</p>","Hunterdon"],
+  ["<p>Somerset:</p><p>Food Insecurity Rate: 6.9% (22,730 people)</p><p>Avg. Meal Cost: $3.52</p>", "Somerset"],
+  ["<p>Union:</p><p>Food Insecurity Rate: 9.6% (53,100 people)</p><p>Avg. Meal Cost: $3.23</p>","Union"],
+  ["<p>Middlesex:</p><p>Food Insecurity Rate: 8.4% (70,110 people)</p><p>Avg. Meal Cost: $3.10</p>", "Middlesex"],
+  ["<p>Mercer:</p><p>Food Insecurity Rate: 11.0% (40,900 people)</p><p>Avg. Meal Cost: $3.28</p>","Mercer"],
+  ["<p>Monmouth:</p><p>Food Insecurity Rate: 8.5% (53,210 people)</p><p>Avg. Meal Cost: $3.42</p>", "Monmouth"],
+  ["<p>Ocean:</p><p>Food Insecurity Rate: 9.4% (54,950 people)</p><p>Avg. Meal Cost: $3.28</p>","Ocean"],
+  ["<p>Burlington:</p><p>Food Insecurity Rate: 9.9% (44,400 people)</p><p>Avg. Meal Cost: $3.18</p>", "Burlington"],
+  ["<p>Camden:</p><p>Food Insecurity Rate: 12.2% (62,480 people)</p><p>Avg. Meal Cost: $3.30</p>","Camden"],
+  ["<p>Atlantic:</p><p>Food Insecurity Rate: 12.9% (35,480 people)</p><p>Avg. Meal Cost: $3.29</p>","Altantic"],
+  ["<p>Gloucester:</p><p>Food Insecurity Rate: 9.9% (28,730 people)</p><p>Avg. Meal Cost: $3.69</p>", "Gloucester"],
+  ["<p>Salem:</p><p>Food Insecurity Rate: 13.0% (8,400 people)</p><p>Avg. Meal Cost: $3.08</p>", "Salem"],
+  ["<p>Cumberland:</p><p>Food Insecurity Rate: 12.9% (20,110 people)</p><p>Avg. Meal Cost: $3.69</p>","Cumberland"],
+  ["<p>Cape May:</p><p>Food Insecurity Rate: 12.4% (11,790 people)</p><p>Avg. Meal Cost: $2.89</p>", "Cape May"],
+  ["<p>Hudson:</p><p>Food Insecurity Rate: 10.5% (69,860 people)</p><p>Avg. Meal Cost: $3.89</p>", "Hudson"]
+];
+
    function pick(index){
      document.getElementById("display").innerHTML=funFacts[index][0];
    }
