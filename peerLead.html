@@ -1,13 +1,36 @@
 <!DOCTYPE html>
 <html>
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-<link rel="stylesheet" href="project-style.css">
 <link rel="stylesheet" href="index.css">
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
-<script src="func.js"></script>
 <head>
+<style>
+  .sizeBtn {
+    width: 40px;
+    height: 40px;
+    text-align: center;
+  	border-radius:45px;
+    float: right;
+
+  }
+
+  #smallText {
+      font-size:x-small;
+      font-weight:bold;
+  }
+
+  #mediumText {
+      font-size:medium;
+      font-weight:bold;
+  }
+
+  #largeText {
+      font-size:x-large;
+      font-weight:bold;
+  }
+</style>
 </head>
 <body>
+<div>
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
   <a class="navbar-brand" href="#">HUGS or SOUP</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -58,21 +81,24 @@
     </form>
   </div>
 </nav>
-<h1>Peer Leadership</h1>
-<p>Peer Leadership is an organization that empowers students to help out in their communities.
-Peer Leadership isn’t just a club to participate in, but it is a life experience
-that shows you and makes you appreciate everything that life gives you. Peer Leadership
-allows students to do some good and at the same time have fun with friends.
-It shows that as students we have great character and will lend a hand to someone in need.
-Peer Leadership started small, but now is nationwide in helping people and getting students involved.</p>
-<h2>“We can make a difference and have fun doing it”.</h2>
-<img src="https://sites.google.com/a/weehawken.k12.nj.us/weehawken-high-school-peer-leadership/_/rsrc/1469575643978/home/Be%20a%20Peer%20Leader.png?height=131&width=320">
-<div class="footer">
-  <small>SOUP Inc.</small><br>
-  <small>Updated 2018</small>
 </div>
+<div>
+<button class= "sizeBtn"type="button" onclick="smallFunction()" id="smallText">A</button>
+<button class= "sizeBtn" type="button" onclick="mediumFunction()" id="mediumText">A</button>
+<button class= "sizeBtn" type="button" onclick="largeFunction()" id="largeText">A</button>
+</div>
+<p>
+<div id="sizeText">
+<h1>This is our Peer Leadership page.</h1>
+Peer Leadership is an organization that empowers students to help out in their communities.
+Peer Leadership isn’t just a club to participate in, but it is a life experience that shows you and makes you appreciate everything that life gives you. Peer Leadership allows students to do some good and at the same time have fun with friends. It shows that as students we have great character and will lend a hand to someone in need. Peer Leadership started small, but now is nationwide in helping people and getting students involved.
+
+“We can make a difference and have fun doing it”. 
+</div>
+</p>
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+<script src="index.js"></script>
 </body>
 </html>
