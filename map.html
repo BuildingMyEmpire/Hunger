@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html>
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-<script src="map.js"></script>
+<script src="func.js"></script>
+<link rel="stylesheet" href="index.css">
 <head>
 <title>Leaflet Web Map</title>
 <link rel="stylesheet" href="map-style.css" />
-<link rel="stylesheet" href="index.css">
 <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.css" />
 
 <script src="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.js"></script>
@@ -15,7 +15,7 @@
 <body>
   <div>
   <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <a class="navbar-brand" href="#">HUGS or SOUP</a>
+  <a class="navbar-brand"> <img id="logo" src="logo.png"></a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -58,10 +58,6 @@
           <a class="nav-link disabled" href="contact.html">Contact</a>
         </li>
       </ul>
-      <form class="form-inline my-2 my-lg-0">
-        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-      </form>
     </div>
   </nav>
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
@@ -70,10 +66,7 @@
   <script src="imagegrid.js"></script>
 
     <div id="map"></div>
-    <div class="footer">
-      <small>SOUP Inc.</small><br>
-      <small>Updated 2018</small>
-    </div>
+
 </body>
 
 <script src="map.js"></script>
