@@ -1,3 +1,4 @@
+
 //var elements = document.getElementsByClassName("column");
 
 //var modal = document.querySelector(".modal");
@@ -14,18 +15,36 @@
 //}
 
 //closeButton.addEventListener("click", toggleModal);
-//window.addEventListener("load", windowOnClick);
+// window.addEventListener("scroll", function () {
+//     scrollFunction();
+// }, false);
+window.onscroll = function(){scrollFunction()};
+
+function scrollFunction() {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        document.getElementById("myBtn").style.display = "block";
+        console.log("shown");
+    } else {
+        document.getElementById("myBtn").style.display = "none";
+        console.log("not shown");
+    }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+}
 
 
 function smallFunction() {
-  console.log("hi");
-    document.getElementById("orgText").style.fontSize = "small";
+    document.getElementById("sizeText").style.fontSize = "small";
 }
 
 function mediumFunction() {
-    document.getElementById("orgText").style.fontSize = "medium";
+    document.getElementById("sizeText").style.fontSize = "medium";
 }
 
 function largeFunction() {
-    document.getElementById("orgText").style.fontSize = "large";
+    document.getElementById("sizeText").style.fontSize = "large";
 }
