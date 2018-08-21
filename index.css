@@ -187,9 +187,9 @@ a {
 }
 
 #logo {
-  width: 90px;
-  height: 55px;
-  background-color: #e8f9f9;
+  width: 70px;
+  height: 70px;
+  background-color: none;
 
 }
 
@@ -208,4 +208,10 @@ li a:hover {
 
 #sizeText{
   margin: 3%;
+}
+
+.map {
+  margin: auto;
+  width: 50%;
+  padding: 10px;
 }
